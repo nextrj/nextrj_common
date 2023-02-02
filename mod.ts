@@ -6,7 +6,7 @@
  * @module
  */
 
-import { JSONValue, parse } from "/deno.land/std/encoding/jsonc.ts"
+import { JSONValue, parse } from "deno.land/std/encoding/jsonc.ts"
 
 const cfg = parse(Deno.readTextFileSync("./deno.jsonc")) as { [key: string]: JSONValue | undefined }
 

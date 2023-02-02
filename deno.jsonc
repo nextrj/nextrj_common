@@ -13,6 +13,6 @@
     }
   },
   "imports": {
-    "/deno.land/std/": "https://deno.land/std@0.175.0/"
+    "deno.land/std/": "https://deno.land/std@0.175.0/"
   }
 }
