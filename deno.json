@@ -1,5 +1,5 @@
 {
-  "version": "0.0.3",
+  "version": "0.0.4",
   "compilerOptions": {
     "allowJs": true,
     "strict": true
@@ -13,6 +13,6 @@
     }
   },
   "imports": {
-    "deno.land/std/": "https://deno.land/std@0.175.0/"
+    "https://deno.land/std/": "https://deno.land/std@0.175.0/"
   }
 }
