@@ -6,6 +6,10 @@
  * @module
  */
 
-const cfg = JSON.parse(Deno.readTextFileSync("./deno.json"))
+import { exists } from "./utils/file.ts"
 
+const file = "./deno.json"
+const cfg = (await exists(file)) ? JSON.parse(Deno.readTextFileSync(file)) : {}
 export const version = (cfg.version ?? "unknown") as string
+
+export * from "./utils/file.ts"

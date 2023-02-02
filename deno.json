@@ -1,5 +1,5 @@
 {
-  "version": "0.0.4",
+  "version": "0.0.5",
   "compilerOptions": {
     "allowJs": true,
     "strict": true
@@ -9,10 +9,8 @@
       "useTabs": false,
       "lineWidth": 120,
       "indentWidth": 2,
-      "singleQuote": false
+      "singleQuote": false,
+      "semiColons": false
     }
-  },
-  "imports": {
-    "https://deno.land/std/": "https://deno.land/std@0.175.0/"
   }
 }
