@@ -1,0 +1,18 @@
+{
+  "version": "0.0.1",
+  "compilerOptions": {
+    "allowJs": true,
+    "strict": true
+  },
+  "fmt": {
+    "options": {
+      "useTabs": false,
+      "lineWidth": 120,
+      "indentWidth": 2,
+      "singleQuote": false
+    }
+  },
+  "imports": {
+    "/deno.land/std/": "https://deno.land/std@0.175.0/"
+  }
+}
