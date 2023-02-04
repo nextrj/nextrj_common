@@ -4,12 +4,15 @@ This module just for try publishing of NextRJ modules.
 
 ## Publish Record
 
-| Date       | Version | Remark                                                |
-| ---------- | ------- | ----------------------------------------------------- |
-| 2023-02-04 | 0.0.6   | `deno.land/x` not use the `deno.jsonc/imports` config |
+| Date       | Version | Remark                                                       |
+| ---------- | ------- | ------------------------------------------------------------ |
+| 2023-02-04 | 0.0.6   | `deno.land/x` not use the remote `deno.jsonc/imports` config |
 
 Use `deno info https://deno.land/x/nextrj_common@$VERSION/examples/version.ts` to show the dependency tree, then check
 the version manually.
+
+- `deno info` not use the remote `deno.jsonc/imports` config, but would use the local `deno.jsonc/imports` config by
+  default.
 
 ## Require
 
